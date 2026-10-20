@@ -1,0 +1,38 @@
+base_url = "https://cubero.org"
+title = "Valeria Cubero Tapia"
+build_search_index = true
+generate_feed = true
+#compile_sass = true
+minify_html = true
+
+theme = "apollo"
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-dark"
+
+[extra]
+toc = true
+use_cdn = false
+theme = "auto"
+favicon = "/icon/favicon.ico"
+mathjax = true
+mathjax_dollar_inline_enable = true
+
+menu = [
+#    { name = "/posts", url= "/posts", weight= 1 },
+#    { name= "/projects", url= "/projects", weight= 2 },
+#    { name= "/about", url= "/about", weight= 3 },
+]
+
+socials = [
+    #{ name= "twitter", url= "https://twitter.com/0xVALUE", icon= "twitter" },
+    { name= "github", url= "https://github.com/Valeria/", icon = "github" },
+    { name= "linkedin", url= "https://www.linkedin.com/in/valeriacubero", icon = "linkedin" },
+    { name= "email", url= "mailto:valeria@cubero.org", icon = "email" },
+    
+]
+
+[extra.analytics]
+enabled = true
+goatcounter_user = "vcubero"
